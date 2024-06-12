@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box !important;
+}
+@font-face{
+    font-family: Metropolis;
+    src: url(./../../../public/fonts/metropolis/Metropolis-Thin.otf);
+}
+.Metropolis-font{
+    font-family: Metropolis;
+}
+.LK-footer{
+   justify-content: space-between;
+    width: 100%;
+    background-color: #F7F5FA;
+ 
+    
+}
+.LK-footer-par-son2{
+    width: 170px;
+}
+.LK-footer-ul{
+    list-style-type: none;
+    margin-left: -29px !important;
+}
+.LK-footer-img{
+    margin-bottom: 20px;
+}
+.LK-footer-icon{
+    margin-left: -10px;
+    gap: 9px;
+}
+.LK-footer-img{
+    margin-bottom: 25px;
+}
+.LK-footer-father-icon2{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    position: relative;
+    transition: 0.5s;
+}
+.LK-footer-father-icon2:hover{
+    background-color: #FF6652;
+    position: relative;
+}
+.LK-footer-father-icon2:hover .LK-footer-icon1{
+    color: white !important; 
+}
+.LK-footer-icon1{
+    color: #0A033C;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 22px;
+}
+.LK-footer-par-son1{
+    margin-bottom: 15px;
+    color: #5D5A6F;
+    font-family: "Inter", sans-serif;
+}
+.LK-footer-par-son2{
+    color: #5D5A6F;
+}
+.LK-footer-icon{
+    margin-bottom: 40px;
+}
+.LK-footer-h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+    font-family: "Inter", sans-serif;
+    color:#0A033C;
+}
+.LK-footer-li{
+    color: #5D5A6F;
+    margin-bottom: 20px;
+}
+@media(min-width:769px) and (max-width:1024px){
+    .LK-footer-h4{
+        font-size: 18px;
+    }
+    .LK-footer-li{
+        font-size: 14px;
+    }
+    .LK-footer-par-son1,.LK-footer-par-son2{
+        font-size: 14px;
+    }
+    .LK-footer-icon{
+        margin-bottom: 25px;
+    }
+     
+}
+
+@media(max-width:768px){
+    .LK-footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center !important;
+        align-items: start !important;
+        margin: 20px auto;
+    }
+  
+}
